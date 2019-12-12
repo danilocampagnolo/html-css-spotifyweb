@@ -8,6 +8,12 @@ body {
   font-size: 14px;
   color: #fff;
 }
+
+a {
+  text-decoration: none;
+  color: #747474;
+}
+
 .color_grey {
 color: #747474;
 }
@@ -59,9 +65,7 @@ color: #747474;
 .crea_playlist a {
   display: flex;
   align-items: center;
-  text-decoration: none;
   margin-top: 5px;
-  color: #A3A3A3;
 }
 .crea_playlist i {
   font-size: 30px;
