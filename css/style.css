@@ -8,6 +8,9 @@ body {
   font-size: 14px;
   color: #fff;
 }
+.color_grey {
+color: #747474;
+}
 
 .wrapper {
   width: 100%;
@@ -57,12 +60,12 @@ body {
   display: flex;
   align-items: center;
   text-decoration: none;
+  margin-top: 5px;
   color: #A3A3A3;
 }
 .crea_playlist i {
   font-size: 30px;
   margin-right: 10px;
-
 }
 
 
@@ -70,11 +73,15 @@ body {
   min-height: 150px;
   overflow-y: auto;
   flex-grow: 2;
-
+  padding-left: 10px;
 }
-.playlist {
-
+.playlist li {
+  padding-top: 15px;
 }
+
+
+
+
 .main-nav-footer {
   background-color: brown;
 }
