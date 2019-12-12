@@ -45,7 +45,7 @@ color: #747474;
 }
 .img_logo {
   width: 50%;
-  padding: 15px 0;
+  padding: 20px 0;
 }
 .main-nav-header ul li img {
   width: 20px;
@@ -60,7 +60,7 @@ color: #747474;
       /* MAIN NAV MAIN */
 .crea_playlist {
   padding-left: 10px;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 .crea_playlist a {
   display: flex;
@@ -68,7 +68,7 @@ color: #747474;
   margin-top: 5px;
 }
 .crea_playlist i {
-  font-size: 30px;
+  font-size: 40px;
   margin-right: 10px;
 }
 
