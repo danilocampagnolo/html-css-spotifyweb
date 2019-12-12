@@ -21,17 +21,18 @@ body {
   overflow: hidden;
 }
 /* ==============MAIN NAV=============== */
+      /* MAIN NAV HEADER */
 .main-nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 320px;
   height: 100%;
-  background: blue;
+  background-color: #000000;
 }
 .main-nav-header {
   padding-left: 10px;
-  background-color: purple;
+
 }
 .img_logo {
   width: 50%;
@@ -47,12 +48,29 @@ body {
   padding-bottom: 5px;
 }
 
+      /* MAIN NAV MAIN */
+.crea_playlist {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.crea_playlist a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #A3A3A3;
+}
+.crea_playlist i {
+  font-size: 30px;
+  margin-right: 10px;
+
+}
+
 
 .main-nav-main {
   min-height: 150px;
   overflow-y: auto;
   flex-grow: 2;
-  background-color: lime;
+
 }
 .playlist {
 
