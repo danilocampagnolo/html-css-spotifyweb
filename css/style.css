@@ -7,6 +7,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
+  font-weight: 700;
   color: #fff;
 }
 
@@ -41,7 +42,7 @@ color: #747474;
   background-color: #000000;
 }
 .main-nav-header {
-  padding-left: 10px;
+  padding-left: 20px;
 
 }
 .img_logo {
@@ -60,7 +61,7 @@ color: #747474;
 
       /* MAIN NAV MAIN */
 .crea_playlist {
-  padding-left: 10px;
+  padding-left: 20px;
   padding-top: 20px;
 }
 .crea_playlist a {
@@ -77,16 +78,28 @@ color: #747474;
   min-height: 150px;
   overflow-y: auto;
   flex-grow: 2;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 .playlist li {
+  list-style: none;
   padding-top: 15px;
 }
 
       /* MAIN NAV FOOTER */
 .main-nav-footer {
-  background-color: brown;
+  padding-left: 20px;
 }
+.main-nav-footer-top a {
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+}
+.main-nav-footer-top a img {
+  margin-right: 10px;
+  width: 15px;
+}
+
+
 
 /* ============== MAIN CONTENT ============= */
 .main-content {
