@@ -177,11 +177,13 @@ align-items: center;
 .music {
   margin-top: 100px;
 }
-
+.music_nav nav ul {
+  display: flex;
+  justify-content: center;
+}
 .music_nav nav ul li {
   display: inline;
   padding: 10px;
-  font-size: 11px;
 }
 
 
@@ -193,6 +195,28 @@ align-items: center;
   width: 100%;
   height: 90px;
   background-color: #282828;
+}
+
+
+
+
+
+/* =========== M D ============= */
+@media screen and (max-width: 1199px) {
+  .music_nav nav ul {
+    flex-wrap: wrap;
+  }
+  .music_nav nav ul li {
+    flex-basis: calc(100% / 5);
+    padding: 10px 0;
+  }
+}
+
+/* =========== S M ============= */
+@media screen and (max-width: 991px) {
+  .music_nav nav ul li {
+    flex-basis: calc(100% / 3);
+  }
 }
 
 /* =========== X S ============= */
@@ -229,5 +253,10 @@ align-items: center;
   .main-content,
   .call-to-action {
     width: calc(100% - 50px);
+  }
+
+  /* music-nav */
+  .music_nav nav ul li {
+    flex-basis: calc(100% / 4);
   }
 }
