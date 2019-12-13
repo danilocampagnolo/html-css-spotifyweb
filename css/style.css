@@ -11,6 +11,10 @@ body {
   color: #fff;
 }
 
+p {
+  color: #747474;
+}
+
 a {
   text-decoration: none;
   color: #747474;
@@ -186,7 +190,25 @@ align-items: center;
   padding: 10px;
 }
 
-
+.recently {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.music_albums {
+  display: flex;
+  margin-top: 20px;
+}
+.album {
+  flex-basis: calc(100% / 6);
+  padding-right: 15px;
+}
+.album img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.album p {
+  margin-top: 10px;
+}
 
 
 
