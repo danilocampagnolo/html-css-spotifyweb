@@ -201,8 +201,7 @@ align-items: center;
   .main-nav hr {
     display: none;
   }
-  .main-nav-header,
-  .main-nav-footer {
+  .main-nav-header {
     padding: 0;
   }
 
