@@ -63,14 +63,16 @@ li {
   background-color: #000000;
 }
 .main-nav-header {
-  padding-left: 20px;
+  /* padding-left: 20px; */
 }
 .img_logo {
   width: 50%;
   padding: 20px 0;
+  padding-left: 20px;
 }
 .img_logo_small {
   display: none;
+  padding-left: 20px;
 }
 .main-nav-header ul li img {
   width: 25px;
@@ -79,8 +81,11 @@ li {
 .main-nav-header ul li a {
 display: flex;
 align-items: center;
+padding-left: 20px;
 }
 .main-nav-header .active {
+  padding-left: 20px;
+  border-left: 2px solid #ADFF2F;
   color: #fff;
 }
 .main-nav-header ul li {
@@ -188,8 +193,19 @@ align-items: center;
   justify-content: center;
 }
 .music_nav nav ul li {
+  position: relative;
   display: inline;
   padding: 10px;
+}
+.music_nav .active:after {
+  content: "";
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25%;
+  border: 1px solid #ADFF2F;
+  border-radius: 5px;
 }
 
 .recently,
@@ -351,6 +367,7 @@ align-items: center;
 }
 .output_repro i {
   margin-right: 15px;
+  color: #fff;
 }
 i.fas.fa-volume-up {
   margin-right: 110px;
