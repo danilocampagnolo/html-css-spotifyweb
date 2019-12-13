@@ -13,6 +13,9 @@ body {
 h1 {
   font-size: 20px;
 }
+h5 {
+  font-size: 11px;
+}
 
 a {
   text-decoration: none;
@@ -55,7 +58,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 320px;
+  width: 230px;
   height: 100%;
   background-color: #000000;
 }
@@ -143,7 +146,7 @@ align-items: center;
 
 /* ============== MAIN CONTENT ============= */
 .main-content {
-  width: calc(100% - 320px);
+  width: calc(100% - 230px);
   height: 100%;
   background-color: #141922;
   overflow-y: scroll;
@@ -156,7 +159,7 @@ align-items: center;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: calc(100% - 320px);
+  width: calc(100% - 230px);
   height: 90px;
   padding: 5px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -241,12 +244,34 @@ align-items: center;
 
 /* footer */
 .footer {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   height: 90px;
   background-color: #282828;
 }
 
-
+.music_in_repro {
+  display: flex;
+  align-items: center;
+}
+.album_in_repro img {
+  width: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  filter: grayscale(1);
+}
+.text_in_repro {
+  margin-right: 40px;
+}
+.text_in_repro p {
+  font-size: 10px;
+}
+.icons_repro i {
+  font-size: 15px;
+  color: #878787;
+  margin-right: 10px;
+}
 
 
 
