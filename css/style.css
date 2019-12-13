@@ -221,8 +221,8 @@ align-items: center;
   position: absolute;
   visibility: hidden;
   font-size: 50px;
-  top: 80px;
-  left:  80px;
+  top: 90px;
+  left:  90px;
   transform: translate(-50%, -50%);
 }
 .album:hover {
