@@ -13,9 +13,6 @@ body {
 h1 {
   font-size: 20px;
 }
-p {
-  color: #747474;
-}
 
 a {
   text-decoration: none;
@@ -64,7 +61,6 @@ li {
 }
 .main-nav-header {
   padding-left: 20px;
-
 }
 .img_logo {
   width: 50%;
@@ -216,6 +212,7 @@ align-items: center;
 .created_for p,
 .popular p {
   margin-top: 10px;
+  color: #747474;
 }
 .album i {
   position: absolute;
