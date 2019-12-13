@@ -190,7 +190,9 @@ align-items: center;
   padding: 10px;
 }
 
-.recently {
+.recently,
+.created_for,
+.popular {
   margin-top: 30px;
   margin-left: 20px;
 }
@@ -199,6 +201,7 @@ align-items: center;
   margin-top: 20px;
 }
 .album {
+  position: relative;
   flex-basis: calc(100% / 6);
   padding-right: 15px;
 }
@@ -209,7 +212,23 @@ align-items: center;
 .album p {
   margin-top: 10px;
 }
-
+.album i {
+  position: absolute;
+  visibility: hidden;
+  font-size: 50px;
+  top: 74px;
+  left: 74px;
+  transform: translate(-50%, -50%);
+}
+.album:hover {
+  cursor: pointer;
+}
+.album:hover img {
+  opacity: .5;
+}
+.album:hover i {
+  visibility: visible;
+}
 
 
 /* footer */
