@@ -28,6 +28,12 @@ li {
 .text_white {
   color: #fff;
 }
+.text_center {
+  text-align: center;
+}
+.text_uppercase {
+  text-transform: uppercase;
+}
 
 .wrapper {
   width: 100%;
@@ -167,7 +173,16 @@ align-items: center;
   transform: scale(1.1);
 }
 
+      /* MUSIC */
+.music {
+  margin-top: 100px;
+}
 
+.music_nav nav ul li {
+  display: inline;
+  padding: 10px;
+  font-size: 11px;
+}
 
 
 
