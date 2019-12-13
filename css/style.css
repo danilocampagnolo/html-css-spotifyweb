@@ -203,7 +203,6 @@ align-items: center;
   margin-top: 20px;
 }
 .album {
-  position: relative;
   flex-basis: calc(100% / 6);
   padding-right: 15px;
 }
@@ -217,12 +216,16 @@ align-items: center;
   margin-top: 10px;
   color: #747474;
 }
+.plus_hover {
+  position: relative;
+  width: 100%;
+}
 .album i {
   position: absolute;
   visibility: hidden;
   font-size: 50px;
-  top: 32%;
-  left:  47%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 .album:hover {
@@ -233,14 +236,6 @@ align-items: center;
 }
 .album:hover i {
   visibility: visible;
-}
-
-.created_for i {
-  top: 40%;
-}
-
-.popular i {
-  top: 35%;
 }
 
 .popular .album img {
@@ -272,15 +267,21 @@ align-items: center;
 .text_in_repro {
   margin-right: 40px;
 }
-.text_in_repro p {
+.text_in_repro a {
   font-size: 10px;
 }
+.text_in_repro a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .icons_repro i {
   font-size: 15px;
   color: #878787;
-  margin-right: 10px;
 }
-
+.icons_repro i:hover {
+  color: #fff;
+}
 .commands_repro {
   display: flex;
   flex-direction: column;
@@ -288,11 +289,18 @@ align-items: center;
 }
 .commands_repro .fa-play-circle {
   font-size: 30px;
+  transition: .25;
+}
+.commands_repro .fa-play-circle:hover {
+  transform: scale(1.2);
 }
 .icons_command {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.icons_command a {
+  margin-right: 10px;
 }
 
 .icons_command i {
