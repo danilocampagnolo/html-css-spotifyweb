@@ -249,6 +249,11 @@ align-items: center;
   .main-nav-footer-bottom {
     justify-content: center;
   }
+  .main-nav-footer-bottom img,
+  .main-nav-footer-top a img,
+  .main-nav-header ul li a img {
+    margin: 0;
+  }
 
   .main-content,
   .call-to-action {
