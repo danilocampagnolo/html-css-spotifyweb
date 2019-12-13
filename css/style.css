@@ -281,6 +281,62 @@ align-items: center;
   margin-right: 10px;
 }
 
+.commands_repro {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+}
+.commands_repro .fa-play-circle {
+  font-size: 30px;
+}
+.icons_command {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons_command i {
+  font-size: 15px;
+  margin: 15px;
+  color: #fff;
+}
+
+.time_repro {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 60%;
+}
+.time_repro span {
+  font-size: 10px;
+}
+.time_repro span.first {
+  margin-right: 80%;
+}
+.time_repro span.first:after {
+  content: "";
+  position: absolute;
+  display: inline;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+  border: 2px solid #C1C1C1;
+  border-radius: 5px;
+}
+.time_repro span.second:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  right: 65%;
+  width: 20%;
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+
+
 
 
 /* =========== M D ============= */
@@ -352,10 +408,6 @@ align-items: center;
   .main-content,
   .call-to-action {
     width: calc(100% - 50px);
-  }
-
-  .commands_repro {
-    flex-grow: 2;
   }
 
   /* music-nav */
