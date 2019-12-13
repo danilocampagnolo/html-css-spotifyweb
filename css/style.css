@@ -307,7 +307,7 @@ align-items: center;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  width: 60%;
+  width: 50%;
 }
 .time_repro span {
   font-size: 10px;
@@ -323,7 +323,7 @@ align-items: center;
   left: 50%;
   transform: translateX(-50%);
   width: 70%;
-  border: 2px solid #C1C1C1;
+  border: 2px solid #5D5D5D;
   border-radius: 5px;
 }
 .time_repro span.second:before {
@@ -332,11 +332,44 @@ align-items: center;
   top: 5px;
   right: 65%;
   width: 20%;
-  border: 2px solid #fff;
+  border: 2px solid #C1C1C1;
   border-radius: 5px;
 }
 
+.output_repro {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.output_repro i {
+  margin-right: 15px;
+}
+i.fas.fa-volume-up {
+  margin-right: 110px;
+}
 
+i.fas.fa-volume-up:after {
+  content: "";
+  position: absolute;
+  display: inline;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  border: 2px solid #5D5D5D;
+  border-radius: 5px;
+}
+i.fas.fa-tv:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 22%;
+  transform: translate(-50%, -50%);
+  width: 20%;
+  border: 2px solid #C1C1C1;
+  border-radius: 5px;
+  z-index: 2;
+}
 
 
 /* =========== M D ============= */
