@@ -262,12 +262,24 @@ align-items: center;
     flex-basis: calc(100% / 5);
     padding: 10px 0;
   }
+
+  .music_albums {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .album {
+    flex-basis: calc(100% / 4);
+  }
 }
 
 /* =========== S M ============= */
 @media screen and (max-width: 991px) {
   .music_nav nav ul li {
     flex-basis: calc(100% / 3);
+  }
+
+  .album {
+    flex-basis: calc(100% / 2);
   }
 }
 
