@@ -277,6 +277,7 @@ align-items: center;
 
 .icons_repro i {
   font-size: 15px;
+  margin-right: 10px;
   color: #878787;
 }
 .icons_repro i:hover {
@@ -300,12 +301,11 @@ align-items: center;
   justify-content: center;
 }
 .icons_command a {
-  margin-right: 10px;
+  margin: 15px;
 }
 
 .icons_command i {
   font-size: 15px;
-  margin: 15px;
   color: #fff;
 }
 
