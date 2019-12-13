@@ -221,8 +221,8 @@ align-items: center;
   position: absolute;
   visibility: hidden;
   font-size: 50px;
-  top: 90px;
-  left:  90px;
+  top: 32%;
+  left:  47%;
   transform: translate(-50%, -50%);
 }
 .album:hover {
@@ -233,6 +233,14 @@ align-items: center;
 }
 .album:hover i {
   visibility: visible;
+}
+
+.created_for i {
+  top: 40%;
+}
+
+.popular i {
+  top: 35%;
 }
 
 .popular .album img {
@@ -344,6 +352,10 @@ align-items: center;
   .main-content,
   .call-to-action {
     width: calc(100% - 50px);
+  }
+
+  .commands_repro {
+    flex-grow: 2;
   }
 
   /* music-nav */
