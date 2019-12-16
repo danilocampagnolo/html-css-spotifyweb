@@ -77,6 +77,10 @@ li {
 .main-nav-header ul li img {
   width: 25px;
   margin-right: 5px;
+  opacity: 0.6;
+}
+.main-nav-header ul li a:hover img {
+  opacity: 1;
 }
 .main-nav-header ul li a {
   display: flex;
