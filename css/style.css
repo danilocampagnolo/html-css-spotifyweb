@@ -86,6 +86,7 @@ li {
   display: flex;
   align-items: center;
   padding-left: 20px;
+  border-left: 1px solid #000000;
 }
 .main-nav-header .active {
   padding-left: 20px;
