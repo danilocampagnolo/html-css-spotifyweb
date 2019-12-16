@@ -64,7 +64,7 @@ li {
 }
 
 .img_logo {
-  width: 50%;
+  width: 60%;
   padding: 20px 0;
   padding-left: 20px;
 }
@@ -239,7 +239,7 @@ li {
   position: relative;
   width: 100%;
 }
-.album i {
+.plus_hover i {
   position: absolute;
   visibility: hidden;
   font-size: 50px;
