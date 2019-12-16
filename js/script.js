@@ -1,1 +1,1 @@
-document.getElementById('recently_1').innerHTML='Metallica';
+document.getElementById('title_recently_1').innerHTML='Metallica';
